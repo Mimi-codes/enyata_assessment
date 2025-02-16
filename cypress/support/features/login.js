@@ -11,16 +11,16 @@ before('', () => {
 //valid login (standard user)
 Cypress.Commands.add('standardUser', () => {
     cy.seePage(data.login_page_veri, data.login_page_val)
-    cy.typeInTextField(data.username_field,data.standard_user)
-    cy.typeInTextField(data.password_field, data.password)
+    cy.typeInTextField(data.username_field,Cypress.env('standard_user'))
+    cy.typeInTextField(data.password_field, Cypress.env('password'))
     cy.clickElement(data.login_btn)
     cy.seePage(data.products_page_veri, data.products_page_val)
 })
 
 Cypress.Commands.add('problemUser', () => {
     cy.seePage(data.login_page_veri, data.login_page_val)
-    cy.typeInTextField(data.username_field,data.problem_user)
-    cy.typeInTextField(data.password_field, data.password)
+    cy.typeInTextField(data.username_field, Cypress.env('problem_user'))
+    cy.typeInTextField(data.password_field, Cypress.env('password'))
     cy.clickElement(data.login_btn)
     cy.seePage(data.products_page_veri, data.products_page_val)
 })

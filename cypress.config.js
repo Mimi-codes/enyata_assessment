@@ -13,7 +13,8 @@ module.exports = defineConfig({
     baseUrl: "https://www.saucedemo.com/",
   viewportHeight: 960,
   viewportWidth: 1538,
-  defaultCommandTimeout: 10000, 
+  defaultCommandTimeout: 10000,
+  env: require('./cypress.env.json'), 
   setupNodeEvents(on, config) {
     // implement node event listeners here
     require('cypress-mochawesome-reporter/plugin')(on);
