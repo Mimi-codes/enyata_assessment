@@ -22,12 +22,12 @@
 
 #### Steps to execute test scripts
  Below are the steps to set up and execute the test script:
- ** Clone the repository 
- ** Install the required dependencies by running the command: npm install
- ** Create a cypress.env.json file and add the login details
- ** Run the test script using the command: npx cypress open --e2e to load the cypress runner and execute test
- ** Run the command: npx cypress run to generate the report
- ** The test report will be generated in the "cypress/reports" directory.
+ * Clone the repository 
+ * Install the required dependencies by running the command: npm install
+ * Create a cypress.env.json file and add the login details
+ * Run the test script using the command: npx cypress open --e2e to load the cypress runner and execute test
+ * Run the command: npx cypress run to generate the report
+ * The test report will be generated in the "cypress/reports" directory.
 
 
 ### Notes
