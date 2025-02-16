@@ -1,0 +1,7 @@
+{
+    "product_name_field" : "div:nth-child(1) > div > div > a > div",
+    "product_name_val" : "",
+    "product_page_list" : "div > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)",
+    "add_to_cart_btn" : "button:nth-child(4)",
+    "badge_count" : "span:nth-of-type(1)"
+}

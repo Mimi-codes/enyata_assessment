@@ -1,0 +1,18 @@
+{
+   "cart_icon" : "div:nth-child(3) > a",
+   "checkout_btn" : "#checkout",
+   "first_name_field" : "div:nth-child(1) > input",
+   "last_name_field" : "div:nth-child(2) > input:nth-child(1)",
+   "postal_code_field" : "div:nth-child(3) > input",
+   "continue_btn" : "input:nth-child(2)",
+   "error_field" : "div:nth-child(4)",
+   "error_val" : "Error: First Name is required",
+   "overview_page": "div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(2)",
+   "overview_page_val" : "Checkout: Overview",
+   "finish_btn": "#finish",
+   "success_page": "div:nth-child(2) > div > div > div:nth-child(2)",
+   "success_mssg": "Your order has been dispatched, and will arrive just as fast as the pony can get there!",
+   "cancel_btn": "#cancel",
+   "cart_page": "span:nth-of-type(1)",
+   "cart_page_val": "Your Cart"
+}

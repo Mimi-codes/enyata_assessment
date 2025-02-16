@@ -1,0 +1,165 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-02-16T01:00:45.372Z",
+    "end": "2025-02-16T01:00:59.052Z",
+    "duration": 13680,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "266df0e2-0c2e-4f78-97fc-949cb9684353",
+      "title": "",
+      "fullFile": "cypress\\e2e\\filter.cy.js",
+      "file": "cypress\\e2e\\filter.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "383b933c-1db8-4e8c-a2cf-2ffab5abb769",
+          "title": "Filter Journey",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Low to High",
+              "fullTitle": "Filter Journey Low to High",
+              "timedOut": null,
+              "duration": 4799,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.lowToHigh();",
+              "err": {},
+              "uuid": "02cf2bc5-2bc2-4188-b619-39a6ff8bb0ef",
+              "parentUUID": "383b933c-1db8-4e8c-a2cf-2ffab5abb769",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Z to A",
+              "fullTitle": "Filter Journey Z to A",
+              "timedOut": null,
+              "duration": 2535,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.zToA();",
+              "err": {},
+              "uuid": "625fb874-6ec4-4a04-814c-03b111b205e6",
+              "parentUUID": "383b933c-1db8-4e8c-a2cf-2ffab5abb769",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "High to Low",
+              "fullTitle": "Filter Journey High to Low",
+              "timedOut": null,
+              "duration": 2484,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.highToLow();",
+              "err": {},
+              "uuid": "672c7741-5e7e-4ada-81d2-229b9361d60b",
+              "parentUUID": "383b933c-1db8-4e8c-a2cf-2ffab5abb769",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A to Z",
+              "fullTitle": "Filter Journey A to Z",
+              "timedOut": null,
+              "duration": 3521,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.aToZ();",
+              "err": {},
+              "uuid": "5de38c0d-f20f-4ef2-9ac4-fe4abc8be5a1",
+              "parentUUID": "383b933c-1db8-4e8c-a2cf-2ffab5abb769",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "02cf2bc5-2bc2-4188-b619-39a6ff8bb0ef",
+            "625fb874-6ec4-4a04-814c-03b111b205e6",
+            "672c7741-5e7e-4ada-81d2-229b9361d60b",
+            "5de38c0d-f20f-4ef2-9ac4-fe4abc8be5a1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13339,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

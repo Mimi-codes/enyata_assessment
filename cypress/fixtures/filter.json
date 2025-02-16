@@ -1,0 +1,8 @@
+{
+    "filter_icon" : "select:nth-of-type(1)",
+    "products_page_veri": "body > div > div > div > div > div:nth-child(2)",
+    "products_page_val" : "Products",
+    "item_price" : ".inventory_item_price",
+    "item_name" : ".inventory_item_name"
+
+}

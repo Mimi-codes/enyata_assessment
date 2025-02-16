@@ -1,0 +1,18 @@
+{
+"standard_user" : "standard_user", 
+"problem_user" : "problem_user", 
+"password" : "secret_sauce", 
+"username_field" : "div:nth-child(1) > input", 
+"password_field" : "div:nth-child(2) > input", 
+"login_btn" : "input:nth-child(4)", 
+"login_page_veri" : "body > div > div > div:nth-child(1)", 
+"login_page_val" : "Swag Labs", 
+"error_field" : "div:nth-child(3)", 
+"blank_username_err" : "Epic sadface: Username is required", 
+"blank_password_err" : "Epic sadface: Password is required", 
+"incorrect_details_err" : "Epic sadface: Username and password do not match any user in this service", 
+"products_page_veri" : "body > div > div > div > div > div:nth-child(2)", 
+"products_page_val" : "Products", 
+"incorrect_username" : "standard", 
+"incorrect_password" : "secretsauce" 
+}

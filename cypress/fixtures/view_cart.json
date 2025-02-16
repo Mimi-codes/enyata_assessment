@@ -1,0 +1,9 @@
+{
+    "cart_link" : ".shopping_cart_link",
+    "cart_list" : ".cart_list" ,
+    "inventory_item" : ".inventory_item",
+    "inventory_btn": ".btn_inventory",
+    "cart_item": ".cart_item",
+    "hamburger_btn": "#react-burger-menu-btn",
+    "logout_btn": "#logout_sidebar_link"
+}
